@@ -135,8 +135,9 @@ export EDITOR="/usr/bin/vim"
 # for zoxide package
 eval "$(zoxide init bash)"
 
-echo "####### Hy ME)-(AR ######################################" | lolcat
-echo "###################### Figure 0ut Why - Before What #####" | lolcat
+echo "#################################### Hy ME)-(AR #########" | lolcat
+echo "### Figure 0ut Why - Before What ########################" | lolcat
+echo "########################### Exploit code, Not people ####" | lolcat
 # echo "####### Fortune Says that ###############################" |lolcat
 
 # Created by `pipx` on 2023-05-31 20:17:59
@@ -178,3 +179,5 @@ alias tmp="touch ~/Desktop/tmp.txt"
 alias md="mkdir"
 alias rd="rmdir"
 alias nasm="nasm -felf64"
+alias gdb="gdb -q"
+alias gccx="gcc -no-pie -fno-stack-protector"
