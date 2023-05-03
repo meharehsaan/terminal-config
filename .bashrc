@@ -140,10 +140,11 @@ echo "###################### Figure 0ut Why - Before What #####" | lolcat
 # echo "####### Fortune Says that ###############################" |lolcat
 
 # Created by `pipx` on 2023-05-31 20:17:59
-export PATH="$PATH:/home/mehar/.local/bin"
+export PATH="$PATH:/home/mehar/.local/bin:/root/.local/bin"
 # export CLASSPATH="$CLASSPATH:/usr/share/java/mysql-connector-j-8.0.33.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/servlet-api.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/jsp-api.jar:."
 # export CATALINA_HOME="/home/mehar/webtomcat/apache-tomcat-10.1.10"
-# export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+export SDK_ROOT=/home/mehar/AndroidSDK
 
 export SHELL="/usr/bin/bash"
 
@@ -157,6 +158,9 @@ alias clean="sudo apt-get clean"
 alias update="sudo apt-get update"
 alias upgrade="sudo apt-get upgrade"
 alias pwncollege="ssh -i key hacker@dojo.pwn.college"
+alias swapoff="sudo swapoff -a"
+alias swapon="sudo swapon -a"
+alias pgoogle="ping google.com"
 
 alias sysctl="sudo systemctl"
 alias clc="clear"
