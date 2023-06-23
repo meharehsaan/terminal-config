@@ -137,7 +137,7 @@ eval "$(zoxide init bash)"
 
 echo "####### Hy ME)-(AR ######################################" | lolcat
 echo "###################### Figure 0ut Why - Before What #####" | lolcat
-#echo "####### Fortune Says that ###############################" |lolcat
+# echo "####### Fortune Says that ###############################" |lolcat
 
 # Created by `pipx` on 2023-05-31 20:17:59
 export PATH="$PATH:/home/mehar/.local/bin"
@@ -147,14 +147,18 @@ export PATH="$PATH:/home/mehar/.local/bin"
 
 export SHELL="/usr/bin/bash"
 
-# aliases
-alias pinstall="sudo apt-get install"
+# my aliases
+alias install="sudo apt-get install"
 alias sinstall="sudo snap install"
-alias sremove="sudo apt-get autoremove"
-alias supdate="sudo apt-get update"
-alias supgrade="sudo apt-get upgrade"
+alias remove="sudo apt remove"
+alias autoremove="sudo apt-get autoremove"
+alias autoclean="sudo apt-get autoclean"
+alias clean="sudo apt-get clean"
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+alias pwncollege="ssh -i key hacker@dojo.pwn.college"
 
-alias sctl="sudo systemctl"
+alias sysctl="sudo systemctl"
 alias clc="clear"
 alias src="source"
 alias py="python3"
