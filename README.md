@@ -1,2 +1,3 @@
-# terminal-config
-This repo contains my terminal cofig files.
+# Terminal Configuration
+
+This repo contains my terminal configuration files.
