@@ -117,10 +117,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-# seting clear alias
-alias 'clc=clear'
-
 # vim become open in insert mode automatically
 alias vim="vim -c 'startinsert'"
 
@@ -143,8 +139,6 @@ echo "####### Hy ME)-(AR ######################################" | lolcat
 echo "###################### Figure 0ut Why - Before What #####" | lolcat
 #echo "####### Fortune Says that ###############################" |lolcat
 
-
-
 # Created by `pipx` on 2023-05-31 20:17:59
 export PATH="$PATH:/home/mehar/.local/bin"
 # export CLASSPATH="$CLASSPATH:/usr/share/java/mysql-connector-j-8.0.33.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/servlet-api.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/jsp-api.jar:."
@@ -152,3 +146,24 @@ export PATH="$PATH:/home/mehar/.local/bin"
 # export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 
 export SHELL="/usr/bin/bash"
+
+# aliases
+alias pinstall="sudo apt-get install"
+alias sinstall="sudo snap install"
+alias sremove="sudo apt-get autoremove"
+alias supdate="sudo apt-get update"
+alias supgrade="sudo apt-get upgrade"
+
+alias sctl="sudo systemctl"
+alias clc="clear"
+alias src="source"
+alias py="python3"
+
+alias gpush="git push origin"
+alias gst="git status"
+alias gcl="git clone"
+alias gadd="git add -A"
+alias tmp="touch ~/Desktop/tmp.txt"
+alias md="mkdir"
+alias rd="rmdir"
+alias rm="rm -i"
