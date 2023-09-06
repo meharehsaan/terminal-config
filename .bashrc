@@ -161,6 +161,7 @@ alias py="python3"
 alias ..="cd .."
 
 alias gpush="git push origin"
+alias gcommit="git commit -m"
 alias gst="git status"
 alias gcl="git clone"
 alias gadd="git add -A"
