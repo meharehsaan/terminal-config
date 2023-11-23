@@ -57,6 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
+	#PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -159,9 +160,11 @@ alias clean="sudo apt-get clean"
 alias update="sudo apt-get update"
 alias upgrade="sudo apt-get upgrade"
 alias pwncollege="ssh -i key hacker@dojo.pwn.college"
+
 alias swapoff="sudo swapoff -a"
 alias swapon="sudo swapon -a"
 alias aslroff="echo 0 | sudo tee /proc/sys/kernel/randomize_va_space"
+alias aslron="echo 2 | sudo tee /proc/sys/kernel/randomize_va_space"
 alias pgoogle="ping google.com"
 
 alias sysctl="sudo systemctl"
@@ -176,6 +179,7 @@ alias gst="git status"
 alias gcl="git clone"
 alias gadd="git add -A"
 alias glog="git log"
+
 alias tmp="touch ~/Desktop/tmp.txt"
 alias md="mkdir"
 alias rd="rmdir"
