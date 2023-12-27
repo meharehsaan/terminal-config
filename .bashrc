@@ -145,8 +145,8 @@ fortune | lolcat
 export PATH="$PATH:/home/mehar/.local/bin:/root/.local/bin"
 # export CLASSPATH="$CLASSPATH:/usr/share/java/mysql-connector-j-8.0.33.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/servlet-api.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/jsp-api.jar:."
 # export CATALINA_HOME="/home/mehar/webtomcat/apache-tomcat-10.1.10"
-export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
-export SDK_ROOT=/home/mehar/AndroidSDK
+#export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+#export SDK_ROOT=/home/mehar/AndroidSDK
 
 export SHELL="/usr/bin/bash"
 
