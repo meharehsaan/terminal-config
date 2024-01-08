@@ -140,7 +140,7 @@ echo "######## Hy ME)-(AR #####################################" | lolcat
 #echo "### Figure 0ut Why - Before What ########################" | lolcat
 echo "######################### Exploit code, Not people ######" | lolcat
 # echo "####### Fortune Says that ###############################" |lolcat
-
+fortune | lolcat
 # Created by `pipx` on 2023-05-31 20:17:59
 export PATH="$PATH:/home/mehar/.local/bin:/root/.local/bin"
 # export CLASSPATH="$CLASSPATH:/usr/share/java/mysql-connector-j-8.0.33.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/servlet-api.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/jsp-api.jar:."
@@ -151,9 +151,9 @@ export SDK_ROOT=/home/mehar/AndroidSDK
 export SHELL="/usr/bin/bash"
 
 # my aliases
-alias install="sudo apt-get install"
+alias install="sudo apt install"
 alias sinstall="sudo snap install"
-alias remove="sudo apt remove"
+alias remove="sudo apt-get remove"
 alias autoremove="sudo apt-get autoremove"
 alias autoclean="sudo apt-get autoclean"
 alias clean="sudo apt-get clean"
