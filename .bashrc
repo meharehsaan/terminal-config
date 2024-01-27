@@ -145,7 +145,7 @@ fortune | lolcat
 export PATH="$PATH:/home/mehar/.local/bin:/root/.local/bin"
 # export CLASSPATH="$CLASSPATH:/usr/share/java/mysql-connector-j-8.0.33.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/servlet-api.jar:/home/mehar/webtomcat/apache-tomcat-10.1.10/lib/jsp-api.jar:."
 # export CATALINA_HOME="/home/mehar/webtomcat/apache-tomcat-10.1.10"
-#export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 #export SDK_ROOT=/home/mehar/AndroidSDK
 
 export SHELL="/usr/bin/bash"
@@ -181,9 +181,13 @@ alias gadd="git add -A"
 alias glog="git log"
 
 alias tmp="touch ~/Desktop/tmp.txt"
+alias cutter="~/cutter/cutter.AppImage"
 alias md="mkdir"
 alias rd="rmdir"
 alias nasm="nasm -felf64"
 alias gdb="gdb -q"
 alias gccx="gcc -no-pie -fno-stack-protector -D_FORTIFY_SOURCE=0"
 alias sub="subl ."
+alias gdbpeda="echo 'source ~/debuggers/peda/peda.py' > .gdbinit && echo 'Embedded PEDA in GDB'"
+alias gdbpwndbg="echo 'source ~/debuggers/pwndbg/gdbinit.py' > .gdbinit && echo 'Embedded PWNDBG in GDB'"
+alias gdbgef="echo 'source ~/debuggers/gef/.gdbinit-gef.py' > .gdbinit && echo 'Embedded GEF in GDB'"
