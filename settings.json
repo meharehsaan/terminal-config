@@ -1,0 +1,90 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0.45,
+  "workbench.tree.indent": 20,
+
+  // ===== FONT =====
+  "editor.fontFamily": "Ubuntu Mono, Ubuntu, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.fontLigatures": false,
+  "editor.letterSpacing": 0.3,
+
+  // ===== EDITOR =====
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.codeLens": false,
+  "editor.minimap.enabled": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.wordWrap": "on",
+
+  // ===== BRACKET & INDENT =====
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.indentation": false,
+
+  // ===== SYNTAX COLORS =====
+  "editor.tokenColorCustomizations": {
+    "comments": "#6A737D",
+    "keywords": "#C792EA",
+    "functions": "#82AAFF",
+    "variables": "#9CDCFE",
+    "strings": "#C3E88D",
+    "numbers": "#F78C6C",
+    "types": "#FFCB6B",
+    "textMateRules": [
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#82AAFF",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#f3ebeb",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#beeb7b"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#a7afb8",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // ===== UI COLORS =====
+  "workbench.colorCustomizations": {
+    "editor.background": "#090a0c",
+    "editor.foreground": "#D4D4D4",
+    "editorLineNumber.foreground": "#5dd055",
+    "editorLineNumber.activeForeground": "#C6C6C6",
+    "editorCursor.foreground": "#AEAFAD",
+    "editor.selectionBackground": "#2E3440",
+    "editor.inactiveSelectionBackground": "#2E344080",
+    "list.activeSelectionBackground": "#1F6F43",
+    "list.activeSelectionForeground": "#ebf0ed",
+    "list.inactiveSelectionBackground": "#164F33",
+    "list.inactiveSelectionForeground": "#CFFFE5",
+    "list.hoverBackground": "#123B27"
+  },
+  "workbench.settings.applyToAllProfiles": [],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveWhenNoErrors": true,
+  "extensions.ignoreRecommendations": true
+}
