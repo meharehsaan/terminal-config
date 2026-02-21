@@ -2,8 +2,12 @@
 # Removes old revisions of snaps
 # CLOSE ALL SNAPS BEFORE RUNNING THIS
 set -eu
-
-LANG=C snap list --all | awk '/disabled/{print $1, $3}' |
+snap list --all | awk '/disabled/{print $1, $3}' |
     while read snapname revision; do
         snap remove "$snapname" --revision="$revision"
     done
+sudo apt-get clean
+sudo apt-get autoclean
+sudo apt-get autoremove
+sudo journalctl --vacuum-time=3d
+rm -rf ~/.cache/thumbnails/*
